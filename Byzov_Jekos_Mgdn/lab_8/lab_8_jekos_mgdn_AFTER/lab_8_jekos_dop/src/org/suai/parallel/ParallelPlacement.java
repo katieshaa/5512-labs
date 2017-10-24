@@ -19,9 +19,7 @@ public class ParallelPlacement {
 
 
     public long makeSolution() throws InterruptedException {
-        if((this.amountThread <= 0) || (this.amountThread > this.k)) {
-            this.amountThread = this.n; // регулироем кол во потоков
-        }
+        this.amountThread = 2;
 
         long result = 0;
         int start = 0;
