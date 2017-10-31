@@ -19,7 +19,12 @@ public class ParallelPlacement {
 
 
     public long makeSolution() throws InterruptedException {
-        this.amountThread = 2;
+        if((this.amountThread <= 0) || (this.amountThread > this.n)) {
+            this.amountThread = Runtime.getRuntime().availableProcessors(); // регулироем кол во потоков
+            if(this.amountThread > this.n){
+                this.amountThread = this.n;
+            }
+        }
 
         long result = 0;
         int start = 0;
