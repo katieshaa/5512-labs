@@ -1,8 +1,5 @@
 package lab8;
 
-/**
- * Created by sgfromrus on 10.2017
- */
 public class ThreadsCell extends Thread {
     private UsualMatrix firstMatrix;
     private UsualMatrix secondMatrix;

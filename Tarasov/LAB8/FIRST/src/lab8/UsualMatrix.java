@@ -1,6 +1,4 @@
 package lab8;
-import lab5.exception.MyException;
-import lab5.matrix.IMatrix;
 
 import java.util.Random;
 
@@ -35,7 +33,7 @@ public class UsualMatrix implements IMatrix {
 
     public IMatrix mul(IMatrix two)  {
         if (getColumn() != two.getRow())
-            throw new MyException("Умножение матриц невозможно!\nКоличество столбцов первой матрицы не равно количеству строк второй матрицы.");
+            throw new RuntimeException("Умножение матриц невозможно!\nКоличество столбцов первой матрицы не равно количеству строк второй матрицы.");
 
         int m = getRow();
         int n = two.getColumn();
@@ -56,12 +54,10 @@ public class UsualMatrix implements IMatrix {
 
     public IMatrix sum(IMatrix two){
         if (getRow() != two.getRow() && this.getColumn() != two.getColumn())
-            throw new MyException("Сложение матриц невозможно!\nМатрицы не квадратные, или разного размера.");
+            throw new RuntimeException("Сложение матриц невозможно!\nМатрицы не квадратные, или разного размера.");
         UsualMatrix temp_m = new UsualMatrix(getRow(), getColumn(), false);
         for (int i = 0; i < getRow(); i++) {
             for (int j = 0; j < getColumn(); j++) {
-                //array[i][j] += two.g etEl(i, j);
-                //temp_m.array[i][j] = this.array[i][j];
                 temp_m.setEl(i, j, this.getEl(i, j) + two.getEl(i, j));
             }
         }
@@ -80,7 +76,7 @@ public class UsualMatrix implements IMatrix {
 
     public int getEl(int i, int j) {
         if (i >= this.getRow() || j >= this.getColumn() || i < 0 || j < 0)
-            throw new MyException("Не верно заданы индексы в методе getEl(int i, int j)");
+            throw new RuntimeException("Не верно заданы индексы в методе getEl(int i, int j)");
         return array[i][j];
     }
 
@@ -88,7 +84,7 @@ public class UsualMatrix implements IMatrix {
 
     public void setEl(int i, int j, int value) {
         if (i >= this.getRow() || j >= this.getColumn() || i < 0 || j < 0)
-            throw new MyException("Не верно заданы индексы в методе setEl(int i, int j, int value)");
+            throw new RuntimeException("Не верно заданы индексы в методе setEl(int i, int j, int value)");
         array[i][j] = value;
     }
 

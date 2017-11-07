@@ -1,9 +1,5 @@
 package lab8;
 
-
-/**
- * Created by sgfromrus on 10.2017
- */
 public class ParallelMatrixProduct extends UsualMatrix {
 
     private int threadCount = 1;
