@@ -1,0 +1,54 @@
+* {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: rgb(236, 236, 236);
+}
+
+
+body {
+	background-color: rgb(44, 46, 57);
+}
+
+
+div.header {
+	background-color: rgba(44, 46, 57, 0.5);
+	border-bottom: 1px solid rgb(40, 40, 40);
+}
+
+
+div.header-name {
+	font-size: 16pt;
+}
+
+
+a.menu-button {
+	background-color: rgb(26, 119, 116);
+
+	transition: .4s ease-out;
+}
+
+
+a.menu-button:hover {
+	background-color: rgb(14, 84, 82);
+}
+
+
+div.board-ad {
+	background-color: rgb(14, 84, 82);
+	border: 1px solid rgb(40, 40, 40);
+	border-radius: 5px;
+}
+
+
+div.board-ad-header {
+	border-bottom: 1px solid rgb(40, 40, 40);
+}
+
+
+div.board-ad-header-name {
+	font-size: 14pt;
+}
+
+
+div.board-ad-header-info {
+	font-size: 9pt;
+}
