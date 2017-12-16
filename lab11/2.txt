@@ -1,0 +1,13 @@
+: "тфьу 1
+
+User  change the name to 1
+
+User  change the name to 12
+12: Hi
+12: Hello
+12: hi
+12: go
+1: go
+
+1: txt2
+
