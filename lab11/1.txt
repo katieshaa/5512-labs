@@ -1,8 +1,0 @@
-: "тфьу 1
-User  change the name to 1
-User  change the name to 12
-
-12: Hi
-
-12: Hello
-
