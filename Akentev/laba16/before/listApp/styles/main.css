@@ -1,0 +1,50 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	
+	font: 12pt "Lucida Console", Monaco, monospace;
+}
+
+
+body {
+	background-color: rgb(52, 73, 94);
+}
+
+
+div.wrapper {
+	max-width: 350px;
+	margin: 50px auto;
+	padding: 25px 50px;
+
+	border-left: 7px solid rgb(20, 90, 50);
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: rgb(39, 174, 96);
+	color: rgb(28, 40, 51);
+}
+
+
+div.wrapper li {
+	line-height: 1.5;
+}
+
+
+li.dropdown > a.show-manager {
+	display: block;
+	
+	text-decoration: none;
+	color: rgb(28, 40, 51);
+}
+
+
+li.dropdown > div.title, li.dropdown > a.show-manager {
+	display: inline-block;
+}
+
+
+li.dropdown > ul {
+	display: block;
+	margin-left: 25px;
+
+	list-style-type: disc;
+}
