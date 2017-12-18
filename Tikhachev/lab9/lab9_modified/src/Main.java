@@ -23,6 +23,6 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("All computer is empty");
+        System.out.println("All computer are empty");
     }
 }
