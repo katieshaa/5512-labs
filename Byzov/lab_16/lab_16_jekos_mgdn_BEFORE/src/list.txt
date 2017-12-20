@@ -1,0 +1,3 @@
+animals>>>Horse>>>Dog>>>Cat
+birds>>>Pigeon>>>Owl>>>Hawk
+phones>>>Samsung>>>Meizu>>>Iphone>>>Nokia
