@@ -1,0 +1,16 @@
+*Names
+    *Igor
+    *Misha
+    *Slava
+    *Kostya
+*Salary
+    *10
+    *30
+    *50
+    *122
+*Sport
+    *Tennis
+    *Football
+    *Basketball
+    *Quantum Theory
+    *Turning machine

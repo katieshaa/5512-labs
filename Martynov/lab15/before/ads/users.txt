@@ -1,0 +1,3 @@
+name=igor&password=qwe
+name=ser&password=qwe
+name=van&password=asd
