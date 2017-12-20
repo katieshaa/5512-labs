@@ -1,0 +1,7 @@
+Ivan;89112345679;family
+Maria;+79111111111 89111111111;family friends
+Gena;4421550 89111334565;friends
+Stas;4431573 +79111355674;friends
+Vasya;336-19-06;family
+Rita;89111455632;colleagues
+
