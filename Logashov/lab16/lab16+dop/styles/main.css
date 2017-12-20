@@ -1,0 +1,29 @@
+
+
+
+
+
+div.wrapper li {
+	line-height: 1.5;
+}
+
+
+li.dropdown > a.show-manager {
+	display: block;
+	
+	text-decoration: none;
+	color: rgb(28, 80, 102);
+}
+
+
+li.dropdown > div.title, li.dropdown > a.show-manager {
+	display: inline-block;
+}
+
+
+li.dropdown > ul {
+	display: block;
+	margin-left: 25px;
+
+	list-style-type: disc;
+}
