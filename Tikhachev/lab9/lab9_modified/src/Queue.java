@@ -39,9 +39,9 @@ public class Queue {
     public boolean isEmpty() {
         if(front >= maxSize) {
             return true;
-        } else {
-            return false;
         }
+        return false;
+        
     }
 
     public void waitingForTurn() {

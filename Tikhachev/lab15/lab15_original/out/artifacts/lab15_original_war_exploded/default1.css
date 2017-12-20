@@ -1,0 +1,88 @@
+.parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+body {
+    background-color: #2196F3;
+}
+
+.button {
+    border: none;
+    font-weight: 700;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    font-size: 20pt;
+}
+.button:hover { background: rgb(53, 167, 110); }
+.button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.inputUsername {
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.addButton {
+    border: none;
+    font-weight: 700;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+
+.addButton:hover { background: rgb(53, 167, 110); }
+.addButton:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.link {
+    float: right;
+    font-family: "Nimbus Roman No9 L";
+    font-size: 15pt;
+    width: 5%;
+    height: 5%;
+    margin-right: 10px;
+}
+
+.titleAdvert {
+    font-size: 15pt;
+    color: white;
+    margin-left: 15%;
+    background-color: #0f76ff;
+    border-bottom: none;
+    resize: none;
+}
+
+.textAdvert {
+    color: white;
+    background-color: #1b90ff;
+    font-size: 20pt;
+    resize: none;
+    border-top: none;
+}

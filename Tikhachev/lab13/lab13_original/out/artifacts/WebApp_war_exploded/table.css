@@ -1,0 +1,133 @@
+
+table {
+    position: relative;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-left: 0px;
+}
+
+td {
+    padding: 5px;
+    padding-right: 195px;
+    border: 1px solid lightgray;
+    background-color: beige;
+    font-size: 15pt;
+    width: 100%;
+    height: 35px;
+    text-align: left;
+
+}
+
+th {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    font-size: 19pt;
+}
+
+.head {
+    color: #ffffff;
+    text-shadow: #757575;
+
+    font-size: 35pt;
+
+}
+
+.parent {
+    width: 100%;
+    height: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+body {
+    background-color: #2196F3;
+}
+
+.button {
+    border: none;
+    font-weight: 700;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    padding: .8em 4em calc(.3em + 5px);
+    border-radius: 5px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    float: right;
+    font-size: 20pt;
+    margin-top: -66px;
+}
+.button:hover { background: rgb(53, 167, 110); }
+.button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.buttonSort {
+    border: none;
+    font-weight: 700;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    padding: .1em calc(2em + 14px) calc(.1em);
+    border-radius: 5px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    float: right;
+    font-size: 20pt;
+    margin-top: -63px;
+}
+.buttonSort:hover { background: rgb(53, 167, 110); }
+.buttonSort:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.inputUsername {
+    height:50px;
+    width:60%;
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.textAdd {
+    color: #ffffff;
+    text-shadow: #757575;
+    font-family: "URW Gothic L";
+    font-size: 21pt;
+}
+
+.invisible {
+    display: none;
+}
+
+.smallBtn {
+    width: 15px;
+    height: 15px;
+    border: 0 none transparent;
+    padding:0;
+    margin:0;
+    margin-left: -382px;
+    margin-top: 42px;
+
+}
+
+.smallBtn:hover { background: rgb(0, 255, 27); }
+
+.block {
+    width: 40%;
+}

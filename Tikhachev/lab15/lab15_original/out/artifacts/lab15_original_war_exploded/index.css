@@ -1,0 +1,81 @@
+.button {
+    width: 19%;
+    height: 6%;
+    margin-top: 1px;
+    margin-left: 40%;
+}
+
+.inputUsername {
+    height:40px;
+    width:19%;
+    margin-left: 40%;
+}
+
+
+
+
+.exitButton {
+    background: none;
+    border: none;
+    color: #0002ff;
+    font-size: 15pt;
+}
+
+.head {
+    width: 100%;
+    height: 17pt;
+
+}
+
+.buttonRegistration {
+    position: absolute;
+    width: auto;
+    height: auto;
+
+}
+
+.loginForm {
+    height: auto;
+}
+
+.addButton {
+    width: 19%;
+    height: 6%;
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.text {
+    resize: none;
+    width: 60%;
+    height: 150px;
+    font-size: 15pt;
+    margin-left: 19%;
+}
+
+.table {
+    width: 100%;
+    height: auto;
+}
+
+.advert {
+    margin-top: 10px;
+}
+
+
+
+.titleAdvert {
+    width: 70%;
+    height: 20pt;
+}
+
+.textAdvert {
+    width: 70%;
+    height: 60pt;
+    margin-left: 15%;
+}
+
+.username {
+    width: 50%;
+    float: left;
+}

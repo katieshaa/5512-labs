@@ -1,0 +1,14 @@
+.button {
+    width: 100%;
+    height: 40pt;
+    margin-top: 1px;
+}
+
+.inputUsername {
+    height:40px;
+    width: 100%;
+}
+
+.loginForm {
+    width: 18%;
+}

@@ -1,0 +1,95 @@
+.parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    background-color: rgba(44, 0, 51, 0.8);
+}
+
+.list {
+    font-size: 18pt;
+    margin-top: 1%;
+    width: auto;
+    margin-left: 40%;
+}
+
+.plusWidth {
+    height: 3%;
+}
+
+.table {
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 25%;
+    height: 80%;
+    background-color: #1b58b1;
+    box-shadow: 1px 0px rgb(27, 83, 230),
+    1px 1px rgb(7,63,210),
+    2px 1px rgb(26,82,229),
+    2px 2px rgb(6,63,209),
+    3px 2px rgb(25,81,228),
+    3px 3px rgb(5,61,208),
+    4px 3px rgb(24,80,227),
+    4px 4px rgb(4,60,207),
+    5px 4px rgb(23,79,226),
+    5px 5px rgb(3,59,206),
+    6px 5px rgb(22,78,225),
+    6px 6px rgb(2,58,205),
+    7px 6px rgb(21,77,224),
+    7px 7px rgb(1,57,204),
+    8px 7px rgb(20,76,223),
+    8px 8px rgb(0,56,203),
+    9px 8px rgb(19,75,222),
+    9px 9px rgb(0,55,202);
+    padding: 5px;
+}
+
+.inputUsername {
+    height:40px;
+    width:19%;
+    margin-left: 40%;
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.button {
+    border: none;
+    font-weight: 700;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    font-size: 20pt;
+    width: 19%;
+    height: 6%;
+    margin-top: 1px;
+    margin-left: 40%;
+}
+.button:hover { background: rgb(53, 167, 110); }
+.button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.inputUsername {
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding:10px;
+    margin-bottom:10px;
+}

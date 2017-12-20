@@ -1,0 +1,109 @@
+.parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+body {
+    background-color: #363636;
+}
+
+.button {
+    border: none;
+    font-weight: 700;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(26, 22, 210);
+    box-shadow: 0 -3px rgb(23, 26, 167) inset;
+    transition: 0.2s;
+    font-size: 20pt;
+}
+.button:hover { background: rgb(46, 46, 167); }
+.button:active {
+    background: rgb(45, 44, 147);
+    box-shadow: 0 3px rgb(28, 27, 147) inset;
+}
+
+.inputUsername {
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding:10px;
+    width: 100%;
+    margin-left: 0px;
+    float: left;
+    margin-bottom:10px;
+}
+
+.link {
+    float: right;
+    font-family: "Nimbus Roman No9 L";
+    font-size: 15pt;
+    width: auto;
+    height: 5%;
+    margin-right: 10px;
+}
+
+.addButton {
+    border: none;
+    font-weight: 700;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(26, 22, 210);
+    box-shadow: 0 -3px rgb(23, 26, 167) inset;
+    transition: 0.2s;
+}
+
+.loginForm{
+    float: left;
+    width: 20%;
+}
+
+.addButton:hover { background: rgb(46, 46, 167); }
+.addButton:active {
+    background: rgb(45, 44, 147);
+    box-shadow: 0 3px rgb(28, 27, 147) inset;
+}
+
+.advert{
+    width: 60%;
+    float: right;
+}
+
+.addAdvert {
+    width: 40%;
+    float: right;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.titleAdvert {
+    font-size: 15pt;
+    color: white;
+    margin-left: 15%;
+    background-color: #045000;
+    border-bottom: none;
+    resize: none;
+}
+
+.textAdvert {
+    color: white;
+    background-color: #0c0f33;
+    font-size: 20pt;
+    resize: none;
+    border-top: none;
+}
