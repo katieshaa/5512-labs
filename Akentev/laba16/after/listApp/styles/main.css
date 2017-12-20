@@ -1,0 +1,84 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	
+	font: 12pt "Lucida Console", Monaco, monospace;
+}
+
+
+body {
+	background-color: rgb(52, 73, 94);
+}
+
+
+div.wrapper {
+	max-width: 350px;
+	margin: 50px auto;
+	padding: 25px 50px;
+
+	border-left: 7px solid rgb(20, 90, 50);
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: rgb(39, 174, 96);
+	color: rgb(28, 40, 51);
+
+	word-wrap: break-word;
+}
+
+
+div.wrapper li {
+	line-height: 1.5;
+}
+
+
+div.changer-view {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+
+div.changer-view > a {
+	padding: 5px 10px;
+
+	border: 1px solid rgb(28, 40, 51);
+	border-radius: 2px;
+	color: rgb(28, 40, 51);
+	text-decoration: none;
+	text-transform: uppercase;
+
+	transition: .35s ease-out;
+}
+
+
+div.changer-view > a:hover {
+	background-color: rgb(28, 40, 51);
+	color: rgb(39, 174, 96);
+}
+
+
+li.dropdown > a.show-manager {
+	display: block;
+	
+	text-decoration: none;
+	color: rgb(28, 40, 51);
+}
+
+
+li.dropdown > div.title, li.dropdown > a.show-manager {
+	display: inline-block;
+}
+
+
+li.dropdown > ul {
+	display: block;
+	margin-left: 25px;
+
+	list-style-type: disc;
+}
+
+
+div.extra-list {
+	margin-top: 15px;
+	margin-left: 15px;
+}
