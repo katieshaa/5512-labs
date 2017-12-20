@@ -1,0 +1,4 @@
+jekos1 : hello server 
+Server : hello 
+Server : how are you? 
+jekos1 : i'm fine, tnx

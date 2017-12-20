@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jekos_16_lab_new:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jekos_16_lab_new_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jekos_16_lab_new/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jekos_16_lab_new" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
